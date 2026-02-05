@@ -47,7 +47,7 @@ export default function Layout({ children, activeSection }: LayoutProps) {
         {/* Social Links */}
         <div className="flex gap-4">
           <a
-            href="https://github.com"
+            href="https://github.com/guilhermedelm"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors"
@@ -56,7 +56,7 @@ export default function Layout({ children, activeSection }: LayoutProps) {
             <Github size={20} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/guilherme-delmonte-rios/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors"
@@ -65,7 +65,7 @@ export default function Layout({ children, activeSection }: LayoutProps) {
             <Linkedin size={20} />
           </a>
           <a
-            href="mailto:guilherme@example.com"
+            href="mailto:guigadelmonterios@gmail.com"
             className="p-2 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors"
             aria-label="Email"
           >
