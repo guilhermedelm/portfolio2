@@ -23,6 +23,7 @@
       const endpoint = import.meta.env.VITE_ANALYTICS_ENDPOINT
       const websiteId = import.meta.env.VITE_ANALYTICS_WEBSITE_ID
 
+      
       if (endpoint && websiteId) {
         const script = document.createElement('script')
         script.src = `${endpoint}/umami`
@@ -30,7 +31,7 @@
         script.defer = true
         document.head.appendChild(script)
       }
-      
+
     </script>
   </body>
 
